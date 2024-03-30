@@ -112,7 +112,7 @@ export default function RegisterENS() {
             <label className="text-sm">ENS Name</label>
             <input
               className="mt-1 bg-transparent border border-gray-700 px-2 py-2 shadow-sm focus:outline-none hover:bg-[#292631] w-full rounded-md sm:text-sm placeholder:text-gray-500"
-              placeholder="ojukwu.eth"
+              placeholder="Oluwafemi.eth"
               value={ensName}
               onChange={(e) => setEnsName(e.target.value)}
             />

@@ -94,7 +94,7 @@ export default function Chat() {
   return (
     <div className="flex h-[85vh]">
       {/* Sidebar */}
-      <div className="w-1/4 bg-[#201D29] p-4">
+      <div className="w-1/4 bg-[#ffff] p-4">
         <h2 className="text-xl font-semibold mb-4 text-white">Contacts</h2>
         <ul className="flex flex-col gap-3">
           {registeredUsers.map((user, index) => (
